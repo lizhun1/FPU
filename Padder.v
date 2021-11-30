@@ -6,18 +6,7 @@
 //Descripttion: this is 
 //version: 1.0
 //Author: lizhun
-//Date: 2021-11-24 14:29:59
+//Date: 2021-11-29 20:09:18
 //LastEditors: lizhun
-//LastEditTime: 2021-11-29 21:33:44
+//LastEditTime: 2021-11-29 20:09:18
 //---------------------------------------------------
-module HA ( a,
-            b,
-            sum,
-            cout);
-input   a;
-input   b;
-output  sum;
-output  cout;
-assign  sum=a^b;
-assign  cout=a&b;   
-endmodule

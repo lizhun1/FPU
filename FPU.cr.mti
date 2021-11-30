@@ -1,0 +1,58 @@
+C:/Users/lizhun/Desktop/course_files/digital/fpu/FA_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/FA_tb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module FA
+-- Compiling module fa_tb
+
+Top level modules:
+	fa_tb
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/products.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/products.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module products8
+
+Top level modules:
+	products8
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/mul8bitarray_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/mul8bitarray_tb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module products8
+-- Compiling module HA
+-- Compiling module FA
+-- Compiling module mul_8array
+-- Compiling module mul8_tb
+
+Top level modules:
+	products8
+	mul8_tb
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module products8
+-- Compiling module products_tb
+
+Top level modules:
+	products_tb
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/HA.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/HA.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module HA
+-- Compiling module ha_tb
+
+Top level modules:
+	ha_tb
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/FA.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/FA.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}}

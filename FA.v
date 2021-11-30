@@ -8,17 +8,23 @@
 //Author: lizhun
 //Date: 2021-11-24 14:31:36
 //LastEditors: lizhun
-//LastEditTime: 2021-11-24 14:35:38
+//LastEditTime: 2021-11-29 21:27:57
 //---------------------------------------------------
-module FA (
-    input a,b,cin,
-	output sum,cout
-);
-wire s1,m1,m2,m3;
-xor(s1,a,b);
-xor(sum,s1,cin);
-and(m1,a,b);
-and(m2,a,cin);
-and(m3,b,cin);
-or(m1,m2,m3);  
+module FA ( a,
+            b,
+            cin,
+            sum,
+            cout);
+input   a;
+input   b;
+input   cin;
+output  sum;
+output  cout; 
+wire    a;
+wire    b;
+wire    cin;
+wire    sum;
+wire    cout;
+assign sum=a^b^cin;
+assign cout=a&b|a&cin|b&cin;
 endmodule
