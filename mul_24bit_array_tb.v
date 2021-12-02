@@ -6,30 +6,34 @@
 //Descripttion: this is 
 //version: 1.0
 //Author: lizhun
-//Date: 2021-11-30 21:58:56
+//Date: 2021-12-01 13:32:45
 //LastEditors: lizhun
-//LastEditTime: 2021-11-30 22:16:03
+//LastEditTime: 2021-12-01 14:00:05
 //---------------------------------------------------
-`include "mul8bitarray.v"
+`include "mul_24bit_array.v"
 `timescale 1ns/1ps
-module mul8_tb();
-reg [7:0] in1;
-reg [7:0] in2;
+module mul24_tb();
+reg [23:0] in1;
+reg [23:0] in2;
 reg clk;
-wire [15:0] out;
+reg  [47:0] rsu;
+wire [47:0] out;
 
-mul_8array mul(in1,in2,out);
+mul_24array mul(in1,in2,out);
 
-always #100 clk=~clk;
+always #1000 clk=~clk;
+always @(*) begin
+    rsu=in1*in2;
+end
 always @(posedge clk) begin
-    in1=in1+8'b1; 
-    in2=in2+8'b1;   
+    in1=in1+24'b1; 
+    in2=in2+24'b1;   
 end
 initial begin
     #100
     clk=0;
-    in1=8'haf;
-    in2=8'haf;
+    in1=24'hffff00;
+    in2=24'hffff00;
     #10000000
     $stop;
 end

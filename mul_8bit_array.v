@@ -8,7 +8,7 @@
 //Author: lizhun
 //Date: 2021-11-24 14:26:11
 //LastEditors: lizhun
-//LastEditTime: 2021-11-30 22:15:30
+//LastEditTime: 2021-12-01 14:54:15
 //---------------------------------------------------
 `include "products.v"
 `include "HA.v"
@@ -30,7 +30,7 @@ genvar i;
 generate 
     for(i=0;i<8;i=i+1)
         begin: p1
-            products p(a,b[i],pp[i]);
+            products8 p(a,b[i],pp[i]);
         end
 endgenerate
 //第一列
@@ -150,7 +150,7 @@ FA fa43(pcout[55],pcout[56],pcout[57],psum[60],pcout[60]);
 
 FA fa44(psum[58],psum[59],psum[60],psum[61],pcout[61]);
 
-assign c[12]=psum[58];
+assign c[12]=psum[61];
 //第十四列
 FA fa45(pp[6][7],pp[7][6],pcout[58],psum[62],pcout[62]);
 FA fa46(pcout[59],pcout[60],pcout[61],psum[63],pcout[63]);
