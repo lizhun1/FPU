@@ -6,13 +6,6 @@ Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 Top level modules:
 	fa_tb
 
-} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/products.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/products.v
-Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
--- Compiling module products8
-
-Top level modules:
-	products8
-
 } {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 -- Compiling module HA
@@ -39,16 +32,23 @@ Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 Top level modules:
 	FA
 
-} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array.v
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/top_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/top_tb.v
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module judge
 -- Compiling module products8
 -- Compiling module HA
 -- Compiling module FA
 -- Compiling module mul_8array
 -- Compiling module mul_24array
+-- Compiling module Normalize
+-- Compiling module result
+-- Compiling module CLA8
+-- Compiling module exp
+-- Compiling module fpu_top
+-- Compiling module top_tb
 
 Top level modules:
-	mul_24array
+	top_tb
 
 } {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
@@ -64,6 +64,23 @@ Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 
 Top level modules:
 	HA
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/exp_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/exp_tb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module CLA8
+-- Compiling module exp
+-- Compiling module exp_tb
+
+Top level modules:
+	exp_tb
+
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/exp.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/exp.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module CLA8
+-- Compiling module exp
+
+Top level modules:
+	exp
 
 } {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
@@ -84,17 +101,14 @@ Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 Top level modules:
 	CLA8
 
-} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array.v
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/normalize.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/normalize.v
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
--- Compiling module products8
--- Compiling module HA
--- Compiling module FA
--- Compiling module mul_8array
+-- Compiling module Normalize
 
 Top level modules:
-	mul_8array
+	Normalize
 
-} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v
+} {} {}} C:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v {1 {vlog -work work -vopt -stats=none {C:\Users\lizhun\Desktop\course_files\digital\fpu\CLA_8bit_tb.v}
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 -- Compiling module CLA8
 -- Compiling module CLA8_tb

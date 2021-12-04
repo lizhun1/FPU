@@ -8,11 +8,11 @@
 //Author: lizhun
 //Date: 2021-11-24 14:26:11
 //LastEditors: lizhun
-//LastEditTime: 2021-12-01 14:54:15
+//LastEditTime: 2021-12-04 18:31:45
 //---------------------------------------------------
-`include "products.v"
-`include "HA.v"
-`include "FA.v"
+// `include "products.v"
+// `include "HA.v"
+// `include "FA.v"
 module mul_8array(a,b,c);
 
 input   [7:0]  a;
@@ -38,7 +38,7 @@ assign c[0]=pp[0][0];
 //第二列
 HA ha1(pp[1][0],pp[0][1],psum[0],pcout[0]);
 
-assign c[1]=psum;
+assign c[1]=psum[0];
 //第三列
 FA fa1(pp[0][2],pp[1][1],pp[2][0],psum[1],pcout[1]);
 

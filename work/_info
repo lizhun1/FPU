@@ -22,7 +22,7 @@ R0
 T_opt1
 !s110 1638341728
 VX7njj]XL^@3_Y;U6OB6LU3
-Z4 04 8 4 work mul24_tb fast 0
+04 8 4 work mul24_tb fast 0
 =1-b40ede3d4e97-61a71c60-b3-239c
 R1
 R2
@@ -30,16 +30,26 @@ n@_opt1
 R3
 R0
 T_opt2
-!s110 1638341799
-VY6Jhb4c5aMO<7XHiO>Obz2
-R4
-=1-b40ede3d4e97-61a71ca6-3df-1940
+!s110 1638609792
+V2b9K7WR2mkZGj3f]JW:Pa3
+Z4 04 6 4 work top_tb fast 0
+=1-00e04f71ac3c-61ab337f-372-30ec
 R1
 R2
 n@_opt2
 R3
+R0
+T_opt3
+!s110 1638609957
+Vz[EE^FS4TH2jhNBn@8Zb70
+R4
+=1-00e04f71ac3c-61ab3425-2b5-4348
+R1
+R2
+n@_opt3
+R3
 vCLA8
-Z5 !s110 1638341143
+Z5 !s110 1638609947
 !i10b 1
 !s100 <1EZYg6n]S`=1G;jEaZWK1
 !s11b ]egRiEPkJOHBI6[Z^oMjK3
@@ -54,25 +64,48 @@ Z9 OL;L;2019.2;69
 r1
 !s85 0
 31
-Z10 !s108 1638341143.000000
-Z11 !s107 CLA_8bit.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v|
-Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v|
+Z10 !s108 1638609947.000000
+Z11 !s107 CLA_8bit.v|exp.v|result.v|normalize.v|FA.v|HA.v|products.v|mul_8bit_array.v|mul_24bit_array.v|judge.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/top.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/top.v|
 !i113 0
 Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 n@c@l@a8
 vCLA8_tb
-R5
+Z14 !s110 1638609696
 !i10b 1
 !s100 3QF0Co8:?X^neJDOV>JEV1
 !s11b Vc6Peof]^8^kgUllBS`mJ0
-I5F3`La?R5[GGIn2T166353
+I;[zlb:9CC[k3=iJE>HakR0
 R6
 R7
 w1638333827
-8C:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v
-FC:/Users/lizhun/Desktop/course_files/digital/fpu/CLA_8bit_tb.v
-Z14 L0 15
+8C:\Users\lizhun\Desktop\course_files\digital\fpu\CLA_8bit_tb.v
+FC:\Users\lizhun\Desktop\course_files\digital\fpu\CLA_8bit_tb.v
+Z15 L0 15
+R9
+r1
+!s85 0
+31
+Z16 !s108 1638609696.000000
+!s107 CLA_8bit.v|C:\Users\lizhun\Desktop\course_files\digital\fpu\CLA_8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\lizhun\Desktop\course_files\digital\fpu\CLA_8bit_tb.v|
+!i113 0
+R13
+R2
+n@c@l@a8_tb
+vexp
+R5
+!i10b 1
+!s100 9G=C8OD<hZ[0jIlNo`Dlh1
+!s11b g?Oi5ORWZMD0l;<^bHkQD3
+I;[RYi7UnUWDn?T?l5[a7j1
+R6
+R7
+w1638605546
+8exp.v
+Fexp.v
+Z17 L0 14
 R9
 r1
 !s85 0
@@ -83,9 +116,30 @@ R12
 !i113 0
 R13
 R2
-n@c@l@a8_tb
+vexp_tb
+Z18 !s110 1638609697
+!i10b 1
+!s100 be0fLXDF4l<6_a@0YjdMP2
+!s11b Hm1HezZBcT?zlaL79McEY0
+IoNlng@jKVeeF7i>T<g5Um3
+R6
+R7
+w1638608605
+8C:/Users/lizhun/Desktop/course_files/digital/fpu/exp_tb.v
+FC:/Users/lizhun/Desktop/course_files/digital/fpu/exp_tb.v
+R15
+R9
+r1
+!s85 0
+31
+R16
+!s107 CLA_8bit.v|exp.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/exp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/exp_tb.v|
+!i113 0
+R13
+R2
 vFA
-Z15 !s110 1638341769
+R5
 !i10b 1
 !s100 SBEIVoGTd8aknilGCl6zX1
 !s11b HFG`<hA5KbW1:=VFdnje^0
@@ -100,15 +154,15 @@ R9
 r1
 !s85 0
 31
-Z16 !s108 1638341769.000000
-Z17 !s107 FA.v|HA.v|products.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array.v|
-Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array.v|
+R10
+R11
+R12
 !i113 0
 R13
 R2
 n@f@a
 vfa_tb
-R5
+!s110 1638609695
 !i10b 1
 !s100 2:9K9zWNQnBQKneICDXRk3
 !s11b ZJif^`;NoH_8o`KMFh@@n0
@@ -118,19 +172,41 @@ R7
 w1638280508
 8C:/Users/lizhun/Desktop/course_files/digital/fpu/FA_tb.v
 FC:/Users/lizhun/Desktop/course_files/digital/fpu/FA_tb.v
-R14
+R15
 R9
 r1
 !s85 0
 31
-R10
+!s108 1638609695.000000
 !s107 FA.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/FA_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/FA_tb.v|
 !i113 0
 R13
 R2
+vfpu_top
+R5
+!i10b 1
+!s100 Gbb_5=]142>aj:P=X[:3]1
+!s11b R]PR7XFT<l1?e4iIThlX?3
+I@hT<37oH;R6>CkkPfF`^T2
+R6
+R7
+w1638609743
+8C:/Users/lizhun/Desktop/course_files/digital/fpu/top.v
+FC:/Users/lizhun/Desktop/course_files/digital/fpu/top.v
+L0 19
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
 vHA
-R15
+R5
 !i10b 1
 !s100 :J:lVnWHFbSmaO^RRiT0H3
 !s11b LeN=zflQjLL<7^PL3YPL82
@@ -145,15 +221,15 @@ R9
 r1
 !s85 0
 31
-R16
-R17
-R18
+R10
+R11
+R12
 !i113 0
 R13
 R2
 n@h@a
 vha_tb
-R5
+R14
 !i10b 1
 !s100 55[V1?kUml`c;IAG0]cli1
 !s11b kYj7QAQiGc9;F;XP1>GOR2
@@ -163,19 +239,41 @@ R7
 w1638280686
 8C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v
 FC:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v
-R14
+R15
 R9
 r1
 !s85 0
 31
-R10
+R16
 !s107 HA.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/HA_tb.v|
 !i113 0
 R13
 R2
-vmul24_tb
+vjudge
 R5
+!i10b 1
+!s100 2W6]V6gFQ`f=8cg>T=6S?2
+!s11b h0O=gZeYQckMPA>RRMcj@0
+IZ<26@3@Y9nfQKS1U>MAR<1
+R6
+R7
+w1638607032
+8judge.v
+Fjudge.v
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vmul24_tb
+R14
 !i10b 1
 !s100 RWN3enT^dX:A;b0AZna7A3
 !s11b W5dJlHUP4dDG1TPYP2VQh3
@@ -185,19 +283,19 @@ R7
 w1638338432
 8C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v
 FC:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v
-R14
+R15
 R9
 r1
 !s85 0
 31
-R10
-Z19 !s107 FA.v|HA.v|products.v|mul_8bit_array.v|mul_24bit_array.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v|
-Z20 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v|
+R16
+!s107 FA.v|HA.v|products.v|mul_8bit_array.v|mul_24bit_array.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_24bit_array_tb.v|
 !i113 0
 R13
 R2
 vmul8_tb
-!s110 1638341493
+R14
 !i10b 1
 !s100 mPh4`>27mPJgN5]hi>P=W2
 !s11b L4`4KnWoR>D?V@[ER:K2D1
@@ -207,12 +305,12 @@ R7
 w1638341485
 8C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array_tb.v
 FC:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array_tb.v
-R14
+R15
 R9
 r1
 !s85 0
 31
-!s108 1638341493.000000
+R16
 !s107 FA.v|HA.v|products.v|mul_8bit_array.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array_tb.v|
 !i113 0
@@ -229,41 +327,41 @@ R7
 w1638337849
 8mul_24bit_array.v
 Fmul_24bit_array.v
-L0 14
+R17
 R9
 r1
 !s85 0
 31
 R10
-R19
-R20
+R11
+R12
 !i113 0
 R13
 R2
 vmul_8array
-R15
+R5
 !i10b 1
 !s100 d2fViZUWMMd[Y06>HYDWH2
 !s11b oAo91FXT4Ba_4I``=oe@=1
-IbnDT^f[J;:7:jL<e3kVng1
+IJ?ibbX47TA10oXfD6Q[CF2
 R6
 R7
 w1638341674
-8C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array.v
-FC:/Users/lizhun/Desktop/course_files/digital/fpu/mul_8bit_array.v
+8mul_8bit_array.v
+Fmul_8bit_array.v
 L0 16
 R9
 r1
 !s85 0
 31
-R16
-R17
-R18
+R10
+R11
+R12
 !i113 0
 R13
 R2
 vmul_array
-Z21 !s110 1638261315
+Z19 !s110 1638261315
 !i10b 1
 !s100 DJ?EnFLRaEO[;SMGOh7dT3
 !s11b 4fH2A5Ee@EoY0K=n_1I2;1
@@ -273,19 +371,42 @@ R7
 w1638261310
 8C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_array.v
 FC:/Users/lizhun/Desktop/course_files/digital/fpu/mul_array.v
-R14
+R15
 R9
 r1
 !s85 0
 31
-Z22 !s108 1638261315.000000
-Z23 !s107 HA.v|products.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_array.v|
-Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_array.v|
+Z20 !s108 1638261315.000000
+Z21 !s107 HA.v|products.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_array.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/mul_array.v|
 !i113 0
 R13
 R2
+vNormalize
+R5
+!i10b 1
+!s100 IhQN?oPF@;0B?fPNLziDK3
+!s11b ;AoH;mJmPZizUBA94^EbV0
+IE0Slk^886^R;0F>3^inKg3
+R6
+R7
+w1638414316
+8normalize.v
+Fnormalize.v
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@normalize
 vproducts
-R21
+R19
 !i10b 1
 !s100 3Q>zMaLham86g^YF6hnoL1
 !s11b L=OeMPInfWB3NB0A;9<Ad3
@@ -293,21 +414,21 @@ IY]l:d=>99lBEm8kZjGIKh0
 R6
 R7
 w1638186973
-Z25 8products.v
-Z26 Fproducts.v
+Z23 8products.v
+Z24 Fproducts.v
 R8
 R9
 r1
 !s85 0
 31
+R20
+R21
 R22
-R23
-R24
 !i113 0
 R13
 R2
 vproducts8
-R15
+R5
 !i10b 1
 !s100 _zb0a@Sm?4<hbI?oQdI^b2
 !s11b TN@85d`EZEBn6[fSziUN;1
@@ -315,21 +436,21 @@ IZJ?ZFR0JS>GMeB_ocOmjR2
 R6
 R7
 w1638267479
-R25
-R26
+R23
+R24
 R8
 R9
 r1
 !s85 0
 31
-R16
-R17
-R18
+R10
+R11
+R12
 !i113 0
 R13
 R2
 vproducts_tb
-R5
+R14
 !i10b 1
 !s100 3FE`N2O9KY:jHc`Le?_333
 !s11b >[Nf>YP8Unh@nGmM590jc0
@@ -339,14 +460,58 @@ R7
 w1638281022
 8C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v
 FC:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v
-R14
+R15
+R9
+r1
+!s85 0
+31
+R16
+!s107 products.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v|
+!i113 0
+R13
+R2
+vresult
+R5
+!i10b 1
+!s100 W1@[Y]lC8@5W24iX2zRCU3
+!s11b jV88cFRD[X^<EdRTLK7ZR2
+IIm[lLnD=_=XITdHS66I2>3
+R6
+R7
+w1638590829
+8result.v
+Fresult.v
+L0 1
 R9
 r1
 !s85 0
 31
 R10
-!s107 products.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/products_tb.v|
+R11
+R12
+!i113 0
+R13
+R2
+vtop_tb
+R18
+!i10b 1
+!s100 oR:eh6JcFX9@P:gA>eo?b1
+!s11b IU@G2WKLUC0D_jz@C2z501
+IQXVTm>eYE<iLj7`<XFDC>2
+R6
+R7
+w1638609206
+8C:/Users/lizhun/Desktop/course_files/digital/fpu/top_tb.v
+FC:/Users/lizhun/Desktop/course_files/digital/fpu/top_tb.v
+L0 17
+R9
+r1
+!s85 0
+31
+!s108 1638609697.000000
+!s107 CLA_8bit.v|exp.v|result.v|normalize.v|FA.v|HA.v|products.v|mul_8bit_array.v|mul_24bit_array.v|judge.v|top.v|C:/Users/lizhun/Desktop/course_files/digital/fpu/top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/lizhun/Desktop/course_files/digital/fpu/top_tb.v|
 !i113 0
 R13
 R2

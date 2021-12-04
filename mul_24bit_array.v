@@ -8,9 +8,9 @@
 //Author: lizhun
 //Date: 2021-11-30 22:24:10
 //LastEditors: lizhun
-//LastEditTime: 2021-12-01 13:35:46
+//LastEditTime: 2021-12-04 18:01:45
 //---------------------------------------------------
-`include "mul_8bit_array.v"
+// `include "mul_8bit_array.v"
 module mul_24array(a,b,c);
 input   [23:0]  a;
 input   [23:0]  b;
@@ -27,10 +27,12 @@ wire    [7:0]   szero;
 genvar i,j;
 generate
     for(i=0;i<3;i=i+1)
+        begin: fix
         for(j=0;j<3;j=j+1)
             begin: p2
                 mul_8array mul(a[(i*8+7):(i*8)],b[(j*8+7):(j*8)],pp[i*3+j]);
             end
+        end
 endgenerate
 //常量
 assign czero=1'b0;
